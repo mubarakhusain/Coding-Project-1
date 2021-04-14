@@ -1,0 +1,749 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+/*This is header section*/
+header{
+   background-color:  rgb(255, 110, 0);
+}
+
+.div-1 img{
+     width:35px;
+}
+.div-1{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.div-2{
+    display:flex;
+    position:relative;
+}
+.div-2 form i{
+  
+   right:80px;
+   top:15px;
+}
+.div-2 form input{
+    margin:5px;
+    border-radius:2rem;
+    height:35px;
+    width:400px;
+    border:none;
+    
+    
+}
+.search-icon{
+    position: absolute;
+}
+.mobile-icon{
+    align-self: center;
+}
+.div-3{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.div-3 ul{
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.div-3 ul li{
+    margin:10px;
+    
+
+}
+.div-3 ul li a{
+    text-decoration: none;
+    color:black;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+.div-4 img{
+    width:35px;
+}
+.div-4 button{
+    width:40%;
+    font-size: 10px;
+}
+.my-row-footer h4{
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: 700;
+
+}
+@media only screen and (min-width: 1024px)and (max-width:1439px){
+    .div-2 form input{
+        width:280px;
+    }
+    .div-3 ul li a{
+        font-size:9px;
+        
+    }
+    .search-icon{
+        left:270px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+     .div-2 form input{
+         width:190px;
+     }
+     
+     .div-3 ul li a{
+        font-size:6px;
+    }
+    .search-icon{
+        left:180px;
+    }
+    .div-4 button{
+        width:55%;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .div-1 img{
+        width:15px;
+        
+    }
+    .div-2 form input{
+        width:90px;
+        height:30px;
+    }
+    .div-3 ul li{
+        margin:2px;
+    }
+    
+    .div-3 ul li a{
+       font-size:5px;
+       width:5px;
+   }
+   .search-icon{
+       left:80px;
+   }
+   .mobile-icon{
+       margin:2px;
+   }
+   .div-4 button{
+       width:55%;
+   }
+   .div-4 img{
+       width:10px;
+       margin:0px;
+       padding:0px;
+   }
+   .div-4 button{
+    margin:none;  
+    border:none;
+   }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .div-1 img{
+        width:13px;
+        
+    }
+    .div-2 form input{
+        width:90px;
+        height:30px;
+    }
+    .div-3 ul li{
+        margin:2px;
+    }
+    
+    .div-3 ul li a{
+       font-size:5px;
+       width:5px;
+   }
+   .search-icon{
+       left:80px;
+   }
+   .mobile-icon{
+       margin:2px;
+   }
+   .div-4 button{
+       width:55%;
+   }
+   .div-4 img{
+       width:10px;
+       margin:0px;
+       padding:0px;
+   }
+   .div-4 button{
+    margin:none;  
+    border:none;
+   }
+}
+/*This is header section end*/
+
+
+/*top navbar section*/
+#logo{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.logo a img{
+    width:200px;
+
+}
+.navbar-2{
+    
+    position: relative;
+    top:60%;
+}
+.navbar-2 ul li a:hover{
+     background-color: rgb(255,110,0);
+}
+#btn-signin{
+    position: relative;
+    left:100px;
+    border-radius: 2rem;
+    background-color: rgb(255,110,0);
+    border:none;
+    font-weight: 700;
+    cursor:pointer;
+
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+    #btn-signin{
+        left:0px;
+    }
+    .navbar-2{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    #img-logo{
+        width:80px;
+
+    }
+    #btn-signin{
+        left:0px;
+    }
+    .navbar-2{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    #img-logo{
+        width:80px;
+
+    }
+    #btn-signin{
+        left:0px;
+    }
+    .navbar-2{
+        font-size: 10px;
+    }
+}
+
+/*top navbar section end*/
+
+/*Registration section*/
+.registration-div{
+    margin:30px 0px 30px 0px;
+    width:100%;
+    height:600px;
+    background-color:rgb(255,110,0) ;
+
+}
+/*
+.registration-div div{
+    border:3px solid black;
+}
+this is for reference 
+*/
+.man-illustration img{
+    width:100%;
+    margin:5px;
+}
+.three-registration{
+    display:flex;
+}
+.three-registration img{
+    border-radius: 5rem;
+    width:30%;
+    margin:0px 5% 0px 5%;
+    border:none;
+    box-shadow: 2px 3px 5px rgb(105, 105, 105);
+}
+.three-para{
+    display: flex;
+    flex-direction: row;
+}
+.three-para p{
+    width:33.33%;
+    margin:0px 5% 0px 5%;
+    text-align:center;
+    color:white;
+    font-weight: 700;   
+    font-size:12px;
+}
+.illus-h3 p{
+    font-family: 'PT Serif', serif;
+    font-size:35px;
+    font-weight: 700;
+    color:white;
+    text-shadow: 3px 3px 5px rgb(77, 77, 77);
+}
+#form-registration{
+    width:100%;
+    height:100%;
+    background-color: white;
+    margin:5px;
+
+}
+#reg-today{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    position: relative;
+    bottom:10px;
+    color:white;
+    background-color: black;
+    font-weight: 700;
+}
+#reg-today p{
+    position: relative;
+    top:7px;
+}
+
+.btn-submit{
+    position: relative;
+    left:80px;
+    width:70%;
+    height:40px;
+    border:none;
+    background-color: rgb(255,110,0);
+    color:white;
+    font-weight: 700;
+}
+.btn-submit:hover{
+    background-color: white;
+    border:1px solid rgb(255,110,0);
+    color:rgb(255,110,0);
+    box-shadow: 2px 2px 5px rgb(78, 78, 78);
+}
+.below-reg-form div{
+    position: relative;
+    top:10px;
+    width:100%;
+    margin:5px;
+}
+.below-reg-form div:nth-child(1){
+    height:50%;
+}
+.below-reg-form div:nth-child(2){
+    height:30%;
+}
+#below-reg-form div{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#below-reg-form div p{
+    color:white;
+    font-weight: 700;
+    margin:5px;
+    
+}
+@media only screen and (min-width: 1024px)and (max-width:1439px){
+    .illus-h3 p{
+        font-size:25px;
+    }
+    .three-registration img{
+        border-radius:10rem ;
+        width:33%;
+        height:90%;
+    }
+    .btn-submit{
+        left:55px;
+    }
+    .registration-div{
+        height:550px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+    .illus-h3 p{
+        font-size:22px;
+    }
+    .three-registration img{
+        position:relative;
+        top:5px;
+        border-radius:10rem ;
+        width:25%;
+        height:90%;
+    }
+    .my-row-three-content div p{
+        font-size:12px;
+    } 
+    .below-reg-form p{
+        font-size:8px;
+    }
+    .btn-submit{
+        left:40px;
+    }
+    .man-illustration img{
+        height:100%;
+        width:100%;
+        margin:0px;
+    }
+    .registration-div{
+        height:510px;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .illus-h3 p{
+        font-size:9px;
+    }
+    .three-registration img{
+        position:relative;
+        top:30px;
+        border-radius:10rem ;
+        width:20%;
+        height:50%;
+    }
+    .my-row-three-content div p{
+        font-size:8px;
+    } 
+    .below-reg-form p{
+        font-size:8px;
+    }
+    .btn-submit{
+        left:20px;
+    }
+    .man-illustration img{
+        margin:5px;
+        height:80%;
+        width:100%;
+        margin:0px;
+    }
+    .registration-div{
+        height:500px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .illus-h3 p{
+        font-size:9px;
+    }
+    .three-registration img{
+        position:relative;
+        top:30px;
+        border-radius:10rem ;
+        width:20%;
+        height:50%;
+    }
+    .my-row-three-content div p{
+        font-size:5px;
+    } 
+    .below-reg-form p{
+        font-size:6px;
+    }
+    .btn-submit{
+        left:20px;
+    }
+    .man-illustration img{
+        margin:5px;
+        height:80%;
+        width:100%;
+        margin:0px;
+    }
+    .registration-div{
+        height:480px;
+    }
+}
+/*Registration section end*/
+
+
+/*Succeed with dummy text*/
+.my-container-dummy h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bodoni Moda', serif;
+  
+
+}
+.my-container-dummy{
+    margin:20px;
+}
+
+.succeed-div img{
+    position:relative;
+    left:25%;
+    margin:5px;
+}
+.succeed-div p{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    margin:5px;
+}
+.succeed-div h3{
+    font-family:'Roboto Condensed', sans-serif;
+    position: relative;
+    left:25%;
+    font-weight: 700;
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+    .succeed-div img{
+        left:12%;
+    }
+    .succeed-div h3{
+        left:12%;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .succeed-div img{
+        width:70%;
+        left:10%;
+    }
+    .succeed-div p{
+    font-size: 8px;
+    margin:3px;
+    }
+    .succeed-div h3{
+        font-size: 10px;
+        left:15%;
+        margin:3px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .succeed-div img{
+        width:70%;
+        left:10%;
+    }
+    .succeed-div p{
+    font-size: 8px;
+    margin:3px;
+    }
+    .succeed-div h3{
+        font-size: 10px;
+        left:15%;
+        margin:3px;
+    }
+    .my-container-dummy h2{
+        font-size:20px;
+    }
+}
+/*Succeed with dummy text end*/
+
+
+/* Above footer information section*/
+.container-box{
+    display:flex;
+    margin: 20px 150px 20px 150px;
+    justify-content: center;  
+}
+.first-content{
+    display:grid;
+    justify-items: center;   
+}
+.container-box div:nth-child(1){
+    border-right: none;
+}
+.container-box div:nth-child(2){
+    border-right: none;
+}
+.container-box div:nth-child(3){
+    border-right: none;
+}
+.first-box{
+    align-items: center;
+    flex: 0 0 25%;
+    border: 1px solid rgb(168, 166, 166);
+}
+
+.first-content h4{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.second-box{
+    flex: 0 0 25%;
+    border:1px solid rgb(168, 166, 166);
+}
+.third-box{
+    flex: 0 0 25%;
+    border:1px solid rgb(168, 166, 166);
+}
+.fourth-box{
+    flex: 0 0 25%;
+    border:1px solid rgb(168, 166, 166);
+}
+@media only screen and (min-width: 1024px)and (max-width:1439px){
+    .first-content{
+        font-size:10px;
+    }
+    .text-1{
+        position: relative;
+        left:35px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+     .first-content{
+         font-size:8px;
+     }
+     .first-content h4{
+         font-size:10px ;
+     }
+     .text-1{
+        position: relative; 
+        left:30px;
+     }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .first-content{
+        font-size:6px;
+    }
+    .first-content h4{
+        font-size:8px ;
+    }
+    
+    .text-1{
+       position: relative; 
+       left:10px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .first-content{
+        font-size:6px;
+    }
+    .first-content h4{
+        font-size:6px ;
+    }
+    
+    .text-1{
+       position: relative; 
+       left:0px;
+    }
+    
+}
+
+/* Above footer information section end*/
+
+
+/* Above footer links*/
+
+.column-1 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.column-2 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.column-3 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+.column-4 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.column-1 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-2 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-3 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-4 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-5 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-5 div input:hover{
+
+    box-shadow: 3px 3px 5px black;
+}
+.column-5 div button:hover{
+    box-shadow: 3px 3px 7px black;
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+    .my-row-infomation div h4{
+        font-size:12px;
+    }
+    .my-row-infomation div p{
+        font-size:10px;
+    }
+    #my-row-info p{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .my-row-infomation div h4{
+        font-size:10px;
+    }
+    .my-row-infomation div p{
+        font-size:8px;
+    }
+    #my-row-info p{
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .my-row-infomation div h4{
+        font-size:10px;
+    }
+    .my-row-infomation div p{
+        font-size:8px;
+    }
+    #my-row-info p{
+        margin-bottom: 5px;
+    }
+}
+
+
+/* Above footer links end*/
+
+
+/* footer section*/
+ footer{
+    border-top:5px grey;
+ }
+ .my-container-footer{
+    border-top: 2px grey;
+    margin-top:30px;
+    margin-bottom:5px;
+ }
+ .my-row-footer{
+    display:flex;
+    flex-direction: row;  
+ }
+ .my-row-footer img{
+    margin:5px;
+    width:35px;
+ }
+ @media only screen and (min-width: 375px)and (max-width:424px){
+     .my-row-footer img{
+         width:12px;
+     }
+     .my-row-footer h4{
+         font-size: 15px;
+     }
+ }
+ /* footer section end*/

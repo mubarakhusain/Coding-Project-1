@@ -1,0 +1,599 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+/*This is header section*/
+header{
+   background-color:  rgb(255, 110, 0);
+}
+
+.div-1 img{
+     width:35px;
+}
+.div-1{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.div-2{
+    display:flex;
+    position:relative;
+}
+.div-2 form i{
+  
+   right:80px;
+   top:15px;
+}
+.div-2 form input{
+    margin:5px;
+    border-radius:2rem;
+    height:35px;
+    width:400px;
+    border:none;
+    
+    
+}
+.search-icon{
+    position: absolute;
+}
+.mobile-icon{
+    align-self: center;
+}
+.div-3{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+.div-3 ul{
+    display:flex;
+    flex-direction:row;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.div-3 ul li{
+    margin:10px;
+    
+
+}
+.div-3 ul li a{
+    text-decoration: none;
+    color:black;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+.div-4 img{
+    width:35px;
+}
+.div-4 button{
+    width:40%;
+    font-size: 10px;
+}
+.my-row-footer h4{
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: 700;
+
+}
+@media only screen and (min-width: 1024px)and (max-width:1439px){
+    .div-2 form input{
+        width:280px;
+    }
+    .div-3 ul li a{
+        font-size:9px;
+        
+    }
+    .search-icon{
+        left:270px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+     .div-2 form input{
+         width:190px;
+     }
+     
+     .div-3 ul li a{
+        font-size:6px;
+    }
+    .search-icon{
+        left:180px;
+    }
+    .div-4 button{
+        width:55%;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .div-1 img{
+        width:15px;
+        
+    }
+    .div-2 form input{
+        width:90px;
+        height:30px;
+    }
+    .div-3 ul li{
+        margin:2px;
+    }
+    
+    .div-3 ul li a{
+       font-size:5px;
+       width:5px;
+   }
+   .search-icon{
+       left:80px;
+   }
+   .mobile-icon{
+       margin:2px;
+   }
+   .div-4 button{
+       width:55%;
+   }
+   .div-4 img{
+       width:10px;
+       margin:0px;
+       padding:0px;
+   }
+   .div-4 button{
+    margin:none;  
+    border:none;
+   }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .div-1 img{
+        width:13px;
+        
+    }
+    .div-2 form input{
+        width:90px;
+        height:30px;
+    }
+    .div-3 ul li{
+        margin:2px;
+    }
+    
+    .div-3 ul li a{
+       font-size:5px;
+       width:5px;
+   }
+   .search-icon{
+       left:80px;
+   }
+   .mobile-icon{
+       margin:2px;
+   }
+   .div-4 button{
+       width:55%;
+   }
+   .div-4 img{
+       width:10px;
+       margin:0px;
+       padding:0px;
+   }
+   .div-4 button{
+    margin:none;  
+    border:none;
+   }
+}
+/*This is header section end*/
+
+
+/*top navbar section*/
+#logo{
+    display:flex;
+    justify-content: flex-end;
+    
+}
+.logo a img{
+    width:200px;
+
+}
+.navbar-2{
+    
+    position: relative;
+    top:60%;
+}
+.navbar-2 ul li a:hover{
+     background-color: rgb(255,110,0);
+}
+#btn-signin{
+    position: relative;
+    left:100px;
+    border-radius: 2rem;
+    background-color: rgb(255,110,0);
+    border:none;
+    font-weight: 700;
+    cursor:pointer;
+
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+    #btn-signin{
+        left:0px;
+    }
+    .navbar-2{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    #img-logo{
+        width:80px;
+
+    }
+    #btn-signin{
+        left:0px;
+    }
+    .navbar-2{
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    #img-logo{
+        width:80px;
+
+    }
+    #btn-signin{
+        left:0px;
+    }
+    .navbar-2{
+        font-size: 10px;
+    }
+}
+
+/*top navbar section end*/
+
+/* home and profile navigation links*/
+.home-profile-nav{
+    background-color: rgb(196, 196, 196);
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:10px;
+}
+.home-profile-nav p{
+    margin:0px;
+    margin-left: 10%;
+    padding:0px;
+}
+.home-profile-nav p a{
+    text-decoration: none;
+    color:black
+}
+.home-profile-nav p a:nth-child(2){
+    font-weight: 700;
+}
+
+/* home and profile navigation links end*/
+
+/*List group of my profile page*/
+
+.list-group ul{
+   list-style-type: none;
+}
+.list-group ul li{
+    font-family: sans-serif;
+}
+.list-group ul li img{
+    width:30%;
+    margin:10px;
+}
+.list-group ul li h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.list-group ul li a{
+    text-decoration: none;
+    color:rgb(119, 119, 119);
+    font-size: 15px;
+    font-weight: 500;
+}
+.list-group ul li a:active{
+    background-color: rgb(133, 126, 126);
+    color:rgb(255,110,0);
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .list-group ul li h3{
+        font-size: 10px;
+    }
+    .list-group ul li a{
+        font-size:10px ;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .list-group ul li h3{
+        font-size: 10px;
+    }
+    .list-group ul li a{
+        font-size:10px ;
+    }
+}
+/*List group of my profile page end*/
+
+/*main body of my profile*/
+.my-profile-main h2{
+    color:rgb(255,110,0);
+    font-weight: 700;
+}
+.row-profile div ul{
+   list-style-type: none;
+}
+.row-profile div ul li{
+    margin:10%;
+    font-weight: 700;
+
+}
+.right-side-list ul li{
+    color:rgb(165, 161, 161);
+}
+.left-side-list ul li{
+    color:rgb(2, 2, 2);
+}
+
+.edit-btn-profile{
+    border:none;
+    background-color: rgb(255,110,0);
+    color:white;
+    width:20%;
+    height:10%;
+    border-radius:3rem;
+    font-size:100%;
+    font-weight: 600;
+    box-shadow:2px 2px 5px 2px rgb(184, 178, 178);
+    
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .my-profile-main h2{
+        font-size: 12px;
+    }
+    .right-side-list ul li{
+        font-size: 9px;
+        margin:20%;
+    }
+    .left-side-list ul li{
+        font-size: 9px;
+        width:100%;
+      
+    }
+    .edit-btn-profile{
+        width:40%;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .my-profile-main h2{
+        font-size: 12px;
+    }
+    .right-side-list ul li{
+        font-size: 8px;
+        margin:20%;
+    }
+    .left-side-list ul li{
+        font-size: 8px;
+        width:100%;
+      
+    }
+    .edit-btn-profile{
+        width:30%;
+        height:7%;
+    }
+}
+/*main body of my profile end*/
+
+/* Above footer information section*/
+.container-box{
+    display:flex;
+    margin: 20px 150px 20px 150px;
+    justify-content: center;  
+}
+.first-content{
+    display:grid;
+    justify-items: center;   
+}
+.container-box div:nth-child(1){
+    border-right: none;
+}
+.container-box div:nth-child(2){
+    border-right: none;
+}
+.container-box div:nth-child(3){
+    border-right: none;
+}
+.first-box{
+    align-items: center;
+    flex: 0 0 25%;
+    border: 1px solid rgb(168, 166, 166);
+}
+
+.first-content h4{
+    font-family:'Roboto Condensed', sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.second-box{
+    flex: 0 0 25%;
+    border:1px solid rgb(168, 166, 166);
+}
+.third-box{
+    flex: 0 0 25%;
+    border:1px solid rgb(168, 166, 166);
+}
+.fourth-box{
+    flex: 0 0 25%;
+    border:1px solid rgb(168, 166, 166);
+}
+@media only screen and (min-width: 1024px)and (max-width:1439px){
+    .first-content{
+        font-size:10px;
+    }
+    .text-1{
+        position: relative;
+        left:35px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+     .first-content{
+         font-size:8px;
+     }
+     .first-content h4{
+         font-size:10px ;
+     }
+     .text-1{
+        position: relative; 
+        left:30px;
+     }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .first-content{
+        font-size:6px;
+    }
+    .first-content h4{
+        font-size:8px ;
+    }
+    
+    .text-1{
+       position: relative; 
+       left:10px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .first-content{
+        font-size:6px;
+    }
+    .first-content h4{
+        font-size:6px ;
+    }
+    
+    .text-1{
+       position: relative; 
+       left:0px;
+    }
+    
+}
+
+/* Above footer information section end*/
+
+
+/* Above footer links*/
+
+.column-1 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.column-2 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.column-3 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+.column-4 a{
+    text-decoration: none;
+    color:rgb(165, 164, 164);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+.column-1 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-2 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-3 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-4 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-5 h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: 700;
+}
+.column-5 div input:hover{
+
+    box-shadow: 3px 3px 5px black;
+}
+.column-5 div button:hover{
+    box-shadow: 3px 3px 7px black;
+}
+@media only screen and (min-width: 768px)and (max-width:1023px){
+    .my-row-infomation div h4{
+        font-size:12px;
+    }
+    .my-row-infomation div p{
+        font-size:10px;
+    }
+    #my-row-info p{
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 425px)and (max-width:766px){
+    .my-row-infomation div h4{
+        font-size:10px;
+    }
+    .my-row-infomation div p{
+        font-size:8px;
+    }
+    #my-row-info p{
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (min-width: 375px)and (max-width:424px){
+    .my-row-infomation div h4{
+        font-size:10px;
+    }
+    .my-row-infomation div p{
+        font-size:8px;
+    }
+    #my-row-info p{
+        margin-bottom: 5px;
+    }
+}
+
+
+/* Above footer links end*/
+
+
+/* footer section*/
+ footer{
+    border-top:5px grey;
+ }
+ .my-container-footer{
+    border-top: 2px grey;
+    margin-top:30px;
+    margin-bottom:5px;
+ }
+ .my-row-footer{
+    display:flex;
+    flex-direction: row;  
+ }
+ .my-row-footer img{
+    margin:5px;
+    width:35px;
+ }
+ @media only screen and (min-width: 375px)and (max-width:424px){
+     .my-row-footer img{
+         width:12px;
+     }
+     .my-row-footer h4{
+         font-size: 15px;
+     }
+ }
+ /* footer section end*/
